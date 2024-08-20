@@ -68,7 +68,7 @@ export async function makeScoreBox(k, pos, score) {
 
   restartBtn.onClick(() => goToGame(k));
 
-  k.onKeyPress("space", () => goToGame(k));
+  k.onKeyPress("enter", () => goToGame(k));
 
   k.onGamepadButtonPress("south", () => goToGame(k));
 

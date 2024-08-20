@@ -5,7 +5,7 @@ export function makePlayer(k) {
     k.sprite("kriby"),
     k.area({ shape: new k.Rect(k.vec2(0, 1.5), 8, 5) }),
     k.anchor("center"),
-    k.body({ jumpForce: 700 }),
+    k.body({ jumpForce: 800 }),
     k.pos(),
     k.scale(SCALE_FACTOR),
     {
